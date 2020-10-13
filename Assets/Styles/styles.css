@@ -1,23 +1,72 @@
 body {
-  background-color: #2A2A72;
+  background-color: #482c3d;
   font-family:  helvetica, sans-serif;
+  color:  #2D1C2D;
 
+}
+
+
+.wrapper {
+  background: #fffeeb;
+  width:  92%;
+  max-width:  800px;
+  margin:  0 auto;
+  padding:  12px 20px;
+}
+
+h1 {
+  margin-bottom:  .5em;
+
+}
+
+h2 {
+  margin-bottom:  .2em;
+  margin-top:  1.5em;
 }
 
 h1, h2 {
-  color:  #9FAF90;
-  <!-- "color" generally applies to text -->
+  color:  #035E7b;
+  font-family:  times, serif;
+}
+/* using different fonts for headers and body text provides Contrast */
+
+blockquote {
+  border-left:  4px solid #035e7b;
+  padding:  12px;
+  background-color:  #fffefe;
+}
+/*I like having the blockquote indented - that's what I'd do in printed text, so
+it makes sense to do the same thing here.  The slightly shaded background and the
+colored border would be less likely to appear in print, but I like them.  I'm not
+sure I'd use them all the time, but they really do help set the block quote apart.*/
+
+ul {
+  padding-left: 20px;
+  margin-top:  6px;
+}
+/*Since I'm using contrasting fonts and colors for the headers and lists, I'm
+really counting on Proximity to tie the list together with its title.*/
+
+.image {
+  text-align:  center;
+  margin:  2em 0;
+}
+
+.caption {
+  font-style: italic;
+  margin-top: 0;
 }
 
 a {
-  color:  #E69E4C;
+  color:  #583c4d;
 }
 
-p {
-    color:  #FCEFF9;
-}
 
 img {
   max-width: 100%;
   height:  auto;
 }
+
+p {
+  line-height: 1.5em;
+  }
