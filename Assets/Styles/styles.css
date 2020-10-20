@@ -7,12 +7,16 @@ body {
 
 
 .wrapper {
-  background: #fffeeb;
+  background-color: #fffeeb;
   width:  92%;
   max-width:  800px;
   margin:  0 auto;
   padding:  12px 20px;
 }
+
+/* "background" alone would trump the background image in the header div, but
+    specifying "color" makes them coexist. */
+
 
 h1 {
   margin-bottom:  .5em;
@@ -70,3 +74,17 @@ img {
 p {
   line-height: 1.5em;
   }
+
+header {
+  background-image: url(../Images/double-bubble-outline.png);
+  border-bottom:  2px solid #482c3d;
+  text-align:  center;
+
+}
+
+footer {
+  text-align: center;
+  font-size: small;
+  padding:  40px 20px;
+  border-top:  2px solid #482c3d;
+}
